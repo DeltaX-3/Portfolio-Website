@@ -1,0 +1,50 @@
+
+html {
+background: rgb(134,85,0);
+background: linear-gradient(90deg, rgba(134,85,0,1) 0%, rgba(227,137,0,1) 50%, rgba(223,153,0,1) 100%);
+color: rgb(255, 255, 255);
+font-family: "IBM Plex Sans", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.top-container {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,89,89,1) 39%, rgba(54,54,54,1) 100%);
+    background-image: url('./Website.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px;
+    position: relative;
+    top: 0px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 200);
+    
+}
+
+.cloud {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.mid-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,89,89,1) 39%, rgba(54,54,54,1) 100%);
+}
